@@ -6,8 +6,7 @@
 
 ---
 
-## 🔗 Live & Links
-*   **Live Demo:** [bmsdigitalsolutions.com/demos/zentra-portal/](https://bmsdigitalsolutions.com/demos/zentra-portal/) *(Demo location on portfolio hub)*
+## 🔗 Links
 *   **Tech Stack:** PHP 8.x, MySQL, Google PageSpeed API, Google Search Console API, Vanilla CSS/JS (Dark-Glow Theme)
 
 ---
