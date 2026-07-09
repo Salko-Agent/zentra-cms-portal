@@ -1,6 +1,6 @@
 # 🖥️ Zentra CMS: Tailored Content Management System for Hand-Coded Sites
 
-> BESPOKE, lightweight content management and SEO dashboard designed for hand-coded websites. A fast, secure alternative to WordPress.
+> Bespoke, lightweight content management and SEO dashboard designed for hand-coded websites. A fast, secure alternative to WordPress.
 
 ![Zentra CMS Showcase Mockup](assets/img/zentra-logo.svg) *(Logo placeholder)*
 
@@ -14,17 +14,17 @@
 
 ## 💡 Project Overview
 
-### ❌ Was war das Problem?
-Klassische CMS-Lösungen wie WordPress sind für handcodierte, performante Websites oft zu überladen und stellen durch veraltete Plugins ein permanentes Sicherheitsrisiko dar. Kunden möchten jedoch trotzdem eine einfache Möglichkeit, Texte zu bearbeiten, Bilder auszutauschen oder SEO-Metadaten anzupassen, ohne jedes Mal den Code anfassen zu müssen.
+### ❌ The Challenge
+Standard CMS platforms like WordPress introduce substantial code bloat, vulnerability risks from plugins, and poor page load performance for custom, hand-coded websites. However, clients still demand a simple way to edit page texts, swap images, and manage SEO metadata on their own without contacting a developer.
 
-### 🛠️ Was habe ich gebaut?
-Ein **maßgeschneidertes, datenbankgestütztes PHP-CMS** für statische und handcodierte Websites. Es ermöglicht eine einfache Steuerung der Website-Inhalte über ein performantes, dunkel gestaltetes Admin-Dashboard. Entwickler definieren Abschnitte (Sections), und Kunden können die Datenfelder direkt im Browser ändern. Zudem überwacht das CMS die Ladezeiten (PageSpeed API) und Klickdaten (Google Search Console API) der Website.
+### 🛠️ The Solution
+A **bespoke, database-driven PHP CMS** specifically engineered for flat or custom-built frontends. It enables rapid editing of page content via a dark, modern admin dashboard. Developers define content sections, and the CMS dynamically builds form fields for the client. The system also monitors performance metrics via the Google PageSpeed API and search traffic via the Google Search Console API.
 
-### 🌟 Was ist besonders?
-*   **⚡ Zero-WordPress-Overhead:** Extrem schlanker PHP-Code ohne Plugins. Seiten laden im CMS-Bereich in wenigen Millisekunden und das Frontend bleibt absolut geschwindigkeitsoptimiert.
-*   **📈 Integriertes SEO- & Speed-Audit:** Direkt im Dashboard werden Live-Testergebnisse von Google PageSpeed und Leistungskennzahlen der Search Console ausgewertet, um Performance-Einbrüche sofort zu erkennen.
-*   **🔄 Custom Section Builder:** Das System generiert dynamisch Formulare für vordefinierte Website-Elemente (z. B. Heroes, Preistabellen, FAQ-Akkordeons, Teamblocks), was Fehleingaben der Kunden verhindert.
-*   **🔒 Hardened Security:** Vollständiger Schutz vor CSRF, sichere Passwort-Verschlüsselung, SQL-Injection-Schutz über präparierte Statements (PDO) und rollenbasierte Zugriffsrechte.
+### 🌟 Key Highlights
+*   **⚡ Zero WordPress Bloat:** A minimal, secure PHP backend that serves admin panels in milliseconds while keeping the customer's frontend completely optimized.
+*   **📈 Built-in SEO & Speed Monitoring:** Directly calls Google APIs inside the dashboard to track real-time PageSpeed scores and Search Console impressions, immediately catching performance regressions.
+*   **🔄 Custom Section Forms:** The CMS matches the admin interface to predefined templates (such as Heroes, Pricing, Accordions, Team sections), eliminating client editing mistakes.
+*   **🔒 Hardened Security:** Implements CSRF tokens, secure session management, SQL-injection prevention via prepared PDO statements, and strict role-based access.
 
 ---
 
