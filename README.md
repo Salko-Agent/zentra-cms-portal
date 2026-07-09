@@ -1,24 +1,30 @@
 # 🖥️ Zentra CMS: Tailored Content Management System for Hand-Coded Sites
 
-Zentra CMS is a lightweight, custom-built Content Management System (CMS) designed specifically to manage hand-coded, static-first websites. Created as a robust and speed-optimized alternative to bloated systems like WordPress, Zentra empowers developers and clients to edit content, manage SEO metadata, and update imagery through an elegant, low-latency dashboard.
+> BESPOKE, lightweight content management and SEO dashboard designed for hand-coded websites. A fast, secure alternative to WordPress.
+
+![Zentra CMS Showcase Mockup](assets/img/zentra-logo.svg) *(Logo placeholder)*
 
 ---
 
-## ⚡ Key Capabilities & Features
-
-*   **🛠️ Zero-WordPress Bloat:** Minimal PHP footprint with optimized page speed performance. Runs on standard Apache environments with SQLite/MySQL backends.
-*   **📊 SEO & Page Speed Monitoring:** Integrated dashboard displaying real-time SEO audit stats and PageSpeed metrics via Google API connection.
-*   **🔄 Database Synchronization Engine:** Automation script (`gen_sync_sql.py`) to generate sync scripts and coordinate local development databases with live production setups.
-*   **🔒 Built-In Security Framework:** CSRF protection, secure session lifecycles, and role-based client routing out-of-the-box.
-*   **📂 Structured Asset Manager:** Direct file upload and template asset preview pipelines.
+## 🔗 Live & Links
+*   **Live Demo:** [bmsdigitalsolutions.com/demos/zentra-portal/](https://bmsdigitalsolutions.com/demos/zentra-portal/) *(Demo location on portfolio hub)*
+*   **Tech Stack:** PHP 8.x, MySQL, Google PageSpeed API, Google Search Console API, Vanilla CSS/JS (Dark-Glow Theme)
 
 ---
 
-## 🛠️ Technical Details
+## 💡 Project Overview
 
-*   **Backend:** PHP 8+, MySQL / MariaDB, Google PageSpeed API integration.
-*   **Frontend Interface:** Modern, responsive dark-themed dashboard built with vanilla CSS (featuring dynamic CSS metaball/lava-lamp backgrounds).
-*   **Database Schema:** Clean relation-based tables for users, roles, pages, blocks, and activity audits (defined in `schema.sql`).
+### ❌ Was war das Problem?
+Klassische CMS-Lösungen wie WordPress sind für handcodierte, performante Websites oft zu überladen und stellen durch veraltete Plugins ein permanentes Sicherheitsrisiko dar. Kunden möchten jedoch trotzdem eine einfache Möglichkeit, Texte zu bearbeiten, Bilder auszutauschen oder SEO-Metadaten anzupassen, ohne jedes Mal den Code anfassen zu müssen.
+
+### 🛠️ Was habe ich gebaut?
+Ein **maßgeschneidertes, datenbankgestütztes PHP-CMS** für statische und handcodierte Websites. Es ermöglicht eine einfache Steuerung der Website-Inhalte über ein performantes, dunkel gestaltetes Admin-Dashboard. Entwickler definieren Abschnitte (Sections), und Kunden können die Datenfelder direkt im Browser ändern. Zudem überwacht das CMS die Ladezeiten (PageSpeed API) und Klickdaten (Google Search Console API) der Website.
+
+### 🌟 Was ist besonders?
+*   **⚡ Zero-WordPress-Overhead:** Extrem schlanker PHP-Code ohne Plugins. Seiten laden im CMS-Bereich in wenigen Millisekunden und das Frontend bleibt absolut geschwindigkeitsoptimiert.
+*   **📈 Integriertes SEO- & Speed-Audit:** Direkt im Dashboard werden Live-Testergebnisse von Google PageSpeed und Leistungskennzahlen der Search Console ausgewertet, um Performance-Einbrüche sofort zu erkennen.
+*   **🔄 Custom Section Builder:** Das System generiert dynamisch Formulare für vordefinierte Website-Elemente (z. B. Heroes, Preistabellen, FAQ-Akkordeons, Teamblocks), was Fehleingaben der Kunden verhindert.
+*   **🔒 Hardened Security:** Vollständiger Schutz vor CSRF, sichere Passwort-Verschlüsselung, SQL-Injection-Schutz über präparierte Statements (PDO) und rollenbasierte Zugriffsrechte.
 
 ---
 
