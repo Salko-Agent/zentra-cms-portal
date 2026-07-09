@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Zentra ZZ Logo -->
+  <rect width="512" height="512" rx="96" fill="#0D1120"/>
+
+  <!-- Back Z (rightward offset, semi-transparent) -->
+  <path d="M200 130 h170 v35 L222 345 H370 v38 H200 v-35 L348 168 H200 Z"
+        fill="none" stroke="rgba(255,255,255,.3)" stroke-width="24" stroke-linejoin="miter"/>
+
+  <!-- Front Z -->
+  <path d="M142 100 h170 v35 L164 315 H312 v38 H142 v-35 L290 138 H142 Z"
+        fill="none" stroke="#fff" stroke-width="24" stroke-linejoin="miter"/>
+
+  <!-- Blue dot -->
+  <circle cx="264" cy="218" r="18" fill="#3B82F6"/>
+</svg>

@@ -1,0 +1,28 @@
+# ── Credentials & Secrets ─────────────────────────────────────
+config.php
+.env
+.env.local
+.env.*.local
+
+# Google service account key
+data/google-service-account.json
+data/*.json
+
+# ── User Data (not for version control) ───────────────────────
+uploads/
+cache/
+
+# ── Seed & Setup Files (contain real data / API keys) ─────────
+seed_smartfit.sql
+seed_bms.sql
+update_smartfit.sql
+setup/
+
+# ── System & Editor Files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
